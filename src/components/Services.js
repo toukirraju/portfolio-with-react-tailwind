@@ -6,6 +6,7 @@ import { fadeIn } from "../variants";
 import ServiceModal from "./ServiceModal";
 import { useState } from "react";
 import { services } from "../data";
+import servicesImg from "../assets/services.png";
 
 const Services = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,17 +26,24 @@ const Services = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0"
+            className="flex-1  mb-12  lg:mb-0 "
           >
-            <h2 className="h2 text-gradient mb-6">What I Do.</h2>
-            <ul className="h3 text-base list-disc">
-              <li>Make A Modern Website for a Modern Business</li>
-              <li>Make A User-Friendly Website That Converts</li>
-              <li>Make A Secure and Scalable Website for Your Business</li>
-              <li>Make A Custom Website That Reflects Your Brand</li>
-              <li>Make A Website That Helps You Achieve Your Business Goals</li>
-            </ul>
-            <button className="btn btn-sm">See my work</button>
+            <div>
+              <h2 className="h2 text-gradient mb-6">What I Do.</h2>
+              <ul className="h3 text-base list-disc">
+                <li>Make A Modern Website for a Modern Business</li>
+                <li>Make A User-Friendly Website That Converts</li>
+                <li>Make A Secure and Scalable Website for Your Business</li>
+                <li>Make A Custom Website That Reflects Your Brand</li>
+                <li>
+                  Make A Website That Helps You Achieve Your Business Goals
+                </li>
+              </ul>
+              <button className="btn btn-sm">See my work</button>
+            </div>
+            <div className="hidden lg:block bg-no-repeat ">
+              <img src={servicesImg} className="mix-blend-lighten" alt="" />
+            </div>
           </motion.div>
           {/* services  */}
           <motion.div

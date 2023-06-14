@@ -44,6 +44,8 @@ const Work = () => {
               image={img1}
               preTitle={"Web Application"}
               title={"HomiFy"}
+              previewLink={"https://h0mify.com"}
+              codeLink={"https://github.com/toukirraju/homeFy_v2"}
             />
           </motion.div>
 
@@ -60,6 +62,12 @@ const Work = () => {
               image={img2}
               preTitle={"UI Design"}
               title={"Financial App"}
+              codeLink={
+                "https://github.com/toukirraju/billing-website-tailwindcss"
+              }
+              previewLink={
+                "https://toukirraju.github.io/billing-website-tailwindcss/"
+              }
             />
             {/* card 3 */}
 
@@ -67,6 +75,8 @@ const Work = () => {
               image={img3}
               preTitle={"Web Application"}
               title={"Learning Portal"}
+              previewLink={"https://final-quiz-app-tar.netlify.app/"}
+              codeLink={"https://github.com/toukirraju/Learning-portal"}
             />
           </motion.div>
         </div>

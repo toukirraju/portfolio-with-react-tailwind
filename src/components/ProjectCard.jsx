@@ -22,8 +22,15 @@ const ProjectCard = ({ image, preTitle, title, previewLink, codeLink }) => {
         </div>
         {/* Preview button */}
         <div className="absolute flex gap-2 -bottom-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 group-hover:bottom-14 transition-all duration-700 z-50">
-          <button className="btn btn-sm">Preview</button>
-          <button className="btn btn-sm">Code</button>
+          <button
+            className="btn btn-sm"
+            onClick={() => window.open(previewLink)}
+          >
+            Preview
+          </button>
+          <button className="btn btn-sm" onClick={() => window.open(codeLink)}>
+            Code
+          </button>
         </div>
       </div>
     </div>
