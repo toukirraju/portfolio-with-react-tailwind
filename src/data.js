@@ -165,7 +165,7 @@ export const services = [
   {
     name: "UI/UX Design",
     description: "Crafting Intuitive Interfaces for Seamless User Experiences",
-    link: "Learn more",
+    link: "",
     serviceList: [
       "Creating user-centered designs by understanding business requirements, and user feedback",
       "Translating requirements into style guides, design systems, design patterns and attractive user interfaces",
@@ -175,7 +175,7 @@ export const services = [
   {
     name: "Frontend Development",
     description: "Transforming Designs into Intuitive User Interfaces",
-    link: "Learn more",
+    link: "",
     serviceList: [
       "Web page development.",
       "Maintaining and improving website.",
@@ -186,7 +186,7 @@ export const services = [
   {
     name: "Backend Development",
     description: " Building Powerful Backend Solutions for the Digital Age",
-    link: "Learn more",
+    link: "",
     serviceList: [
       "Participate in the entire application lifecycle, focusing on coding and debugging.",
       "Write clean code to develop functional web applications.",
@@ -198,6 +198,6 @@ export const services = [
     name: "DevOps",
     description:
       "DevOps makes Bridging the Gap between Development and Operations for Efficient Delivery.",
-    link: "Learn more",
+    link: "",
   },
 ];
